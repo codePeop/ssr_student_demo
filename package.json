@@ -1,0 +1,17 @@
+{
+  "name": "menorep-demo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace @menorep/web dev",
+    "build": "yarn workspace @menorep/web build",
+    "typecheck": "yarn workspace @menorep/web typecheck"
+  },
+  "packageManager": "yarn@1.22.22",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
