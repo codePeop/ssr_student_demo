@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "react-router dev",
     "build": "react-router build",
-    "start": "react-router-serve ./build/server/index.js",
+    "start": "react-router-serve ./build/server/index.js --host 0.0.0.0 --port 3000",
     "lint": "eslint src --ext .ts,.tsx",
     "typecheck": "tsc --noEmit"
+
+
   },
   "dependencies": {
     "@ant-design/icons": "^5.4.0",
